@@ -8,3 +8,8 @@ Console.WriteLine(" ");
 
 TeamMembers1302210006 tM = new TeamMembers1302210006();
 tM.ReadJSON();
+
+Console.WriteLine(" ");
+
+GlossaryItem1302210006 gI = new GlossaryItem1302210006();
+gI.ReadJSON();
