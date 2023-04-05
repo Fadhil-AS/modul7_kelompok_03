@@ -12,7 +12,7 @@ namespace modul7_kelompok_03
         public string para { get; set; }
         public string[] GlossSeeAlso { get; set; }
         public GlossDef1302210006() { }
-        public GlossDef1302213089(string para, string[] GlossSeeAlso)
+        public GlossDef1302210006(string para, string[] GlossSeeAlso)
         {
             this.para = para;
             this.GlossSeeAlso = GlossSeeAlso;
@@ -30,7 +30,7 @@ namespace modul7_kelompok_03
         public string GlossSee { get; set; }
 
         public GlossEntry1302210006() { }
-        public GlossEntry1302210006(string ID, string SortAs, string GlossTerm, string Acronym, string Abbrev, GlossDef1302213089 GlossDef, string GlossSee)
+        public GlossEntry1302210006(string ID, string SortAs, string GlossTerm, string Acronym, string Abbrev, GlossDef1302210006 GlossDef, string GlossSee)
         {
             this.ID = ID;
             this.SortAs = SortAs;
