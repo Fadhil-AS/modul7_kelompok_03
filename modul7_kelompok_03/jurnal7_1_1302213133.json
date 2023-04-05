@@ -1,0 +1,14 @@
+{
+   "firstName": "Faris Siddiq",
+   "lastName": "Ramdan Putra",
+   "gender": "male",
+   "age": 19,
+   "address": {
+       "streetAddress": "Buah Batu",
+       "city": "Bandung",
+       "state": "West Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" }
+   ]
+}

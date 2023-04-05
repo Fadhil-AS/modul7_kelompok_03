@@ -1,3 +1,18 @@
+using modul7_kelompok_03;
+
+DataMahasiswa1302213133 data = new DataMahasiswa1302213133();
+data.readJSON();
+
+Console.WriteLine("----------------------------------------------------------------------");
+
+TeamMembers1302213133 team = new TeamMembers1302213133();
+team.readJSON();
+
+Console.WriteLine("----------------------------------------------------------------------");
+
+GlossaryItem1302213133 gloss = new GlossaryItem1302213133();
+gloss.readJSON();
+
 
 
 DataMahasiswa_1302213012 mhs = new DataMahasiswa_1302213012();
@@ -36,5 +51,6 @@ Objmember.ReadJSON();
 GlossaryItem1302213089 Objgloss = new GlossaryItem1302213089();
 
 Objgloss.ReadJSON();
+
 
 
