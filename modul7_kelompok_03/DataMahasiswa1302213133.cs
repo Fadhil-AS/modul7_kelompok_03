@@ -35,7 +35,7 @@ namespace modul7_kelompok_03
         {
             String Des = File.ReadAllText("C:\\Users\\PRAKTIKAN\\Documents\\GitHub\\modul7_kelompok_03\\modul7_kelompok_03\\jurnal7_1_1302213133.json");
             DataMahasiswa1302213133 obj = JsonSerializer.Deserialize<DataMahasiswa1302213133>(Des);
-            Console.WriteLine("Nama: " + obj.firstName + " " + obj.lastName + " umur " + obj.age + " dengan jenis kelamin " + obj.gender);
+            Console.WriteLine("Nama " + obj.firstName + " " + obj.lastName + " umur " + obj.age + " dengan jenis kelamin " + obj.gender);
             Console.WriteLine("Jalan " + obj.address.streetAddress + " Kota " + obj.address.city + " Provinsi " + obj.address.state);
             Console.WriteLine("Daftar mata kuliah yang diambil: ");
             for (int i = 0; i < obj.courses.Count; i++)
