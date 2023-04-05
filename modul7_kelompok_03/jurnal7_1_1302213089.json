@@ -1,0 +1,15 @@
+{
+   "firstName": "Vikhan",
+   "lastName": "Muharram",
+   "gender": "male",
+   "age": 19,
+   "address": {
+       "streetAddress": "Cibadak",
+       "city": "Sukabumi",
+       "state": "West Java"
+   },
+   "courses": [
+       { "code": "CRI2C4", "name": "Konstruksi Perangkat Lunak" },
+       { "code": "CRI2XX", "name": "Nama Mata Kuliah" }
+   ]
+}
