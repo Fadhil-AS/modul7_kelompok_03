@@ -23,7 +23,8 @@ namespace modul7_kelompok_03
             Console.WriteLine("Team member list:");
             for (int i = 0; i < obj.members.Count; i++)
             {
-                Console.WriteLine(obj.members[i].nim + " " + obj.members[i].firstName + " " + obj.members[i].lastName + " " + obj.members[i].age + " " + obj.members[i].gender);
+                Console.WriteLine(obj.members[i].nim + " " + obj.members[i].firstName + " " + obj.members[i].lastName 
+                    + " " + obj.members[i].age + " " + obj.members[i].gender);
             }
 
         }

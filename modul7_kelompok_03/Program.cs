@@ -11,3 +11,5 @@ team.readJSON();
 
 Console.WriteLine("----------------------------------------------------------------------");
 
+GlossaryItem1302213133 gloss = new GlossaryItem1302213133();
+gloss.readJSON();
