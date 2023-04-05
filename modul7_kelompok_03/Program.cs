@@ -1,5 +1,11 @@
 ﻿using modul7_kelompok_03;
 
-DataMahasiswa1302213089 Obj = new DataMahasiswa1302213089();
+DataMahasiswa1302213089 Objdata = new DataMahasiswa1302213089();
 
-Obj.ReadJSON();
+Objdata.ReadJSON();
+
+Console.WriteLine("");
+
+TeamMembers1302213089 Objmember = new TeamMembers1302213089();
+
+Objmember.ReadJSON();
