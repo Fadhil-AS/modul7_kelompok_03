@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace modul7_kelompok_03
 {
-    public class GlossDef1302213089
+    public class GlossDef1302210006
     {
         public string para { get; set; }
         public string[] GlossSeeAlso { get; set; }
